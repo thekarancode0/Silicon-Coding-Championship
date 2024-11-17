@@ -29,6 +29,7 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    backdrop-filter: blur(2px);
 }
 
 .container{
@@ -70,3 +71,30 @@ body{
       background-position: 500%;
     }
   }
+
+  .logo-container{
+    /* border: 1px solid; */
+    height: 70vh;
+    width: 200px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+ .logo-container span{
+    font-size: 20px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    background-color: #079da879;
+    border-radius: 3px;
+    padding: 5px;
+    transition: .1s linear;
+    box-shadow: 0 5px 10px black;
+ }
+ 
+ .logo-container span:hover{
+    background-color: #0000008e;
+    color: #079ea8;
+    cursor: pointer;
+ }
