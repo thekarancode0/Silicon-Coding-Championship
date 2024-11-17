@@ -1,5 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;;
+    box-sizing: border-box;
+    ;
+}
+
+:root {
+    --color1: #ff1e00;
+    --color2: #e8f9fd;
+    --color3: #59ce8f;
+    --color4: #e1b382;
+    --color5: #c89666;
+    --color6: #2d545e;
+    --color7: #12343b;
 }
