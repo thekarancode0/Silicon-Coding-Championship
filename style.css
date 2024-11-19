@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
     ;
 }
 
@@ -81,7 +82,9 @@ body{
     justify-content: space-around;
   }
 
- .logo-container span{
+ .logo-container a {
+    text-decoration: none;
+    color: black;
     font-size: 20px;
     font-family: "Poppins",sans-serif;
     font-weight: 600;
@@ -92,7 +95,7 @@ body{
     box-shadow: 0 5px 10px black;
  }
  
- .logo-container span:hover{
+ .logo-container a:hover{
     background-color: #0000008e;
     color: #079ea8;
     cursor: pointer;
