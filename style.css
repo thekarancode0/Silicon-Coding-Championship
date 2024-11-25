@@ -8,8 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-    ;
+    user-select: none;
 }
 
 :root {
@@ -112,10 +111,10 @@ body{
     cursor: pointer;
  }
 
- footer{
-    position:relative;
-    bottom:10px;
-    color:rgba(255, 255, 255, 0.349);
-    font-size: 14px;
-    letter-spacing: 3px;
- }
+ footer {
+  position: relative;
+  bottom: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.875rem;
+  letter-spacing: 3px;
+}
